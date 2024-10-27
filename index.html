@@ -186,9 +186,7 @@ Contact Info
         onclick="location.href='https://github.com/lavenya200399/Power-Bi-Project-Hospital-Wait-List-'">
         GitHub
         </button>
-        <button class="btn btn-color-2 project-btn" 
-        onclick="location.href='https://github.com/lavenya200399'">
-        See My Work
+        <button class="btn btn-color-2 project-btn" onclick="openModal()">View Live Demo</button>
         </button>
       </div>
       <div class="details-container color-container">
@@ -245,5 +243,11 @@ Contact Info
   <p>"Implemented and customized by Lavenya Ravikumar, based on Ademir's source code."</p>
 </footer>
     <script src="script.js"></script>
+    <div id="projectModal" class="modal">
+      <div class="modal-content">
+          <span class="close" onclick="closeModal()">&times;</span>
+          <iframe title="Hospital Wait List" width="1140" height="541.25" src="https://app.powerbi.com/reportEmbed?reportId=fa6f0596-3380-4d4c-b2e1-f3d6b5fb9371&autoAuth=true&ctid=d4963ce2-af94-4122-95a9-644e8b01624d" frameborder="0" allowFullScreen="true"></iframe>
+      </div>
+  </div>
   </body>
 </html>
