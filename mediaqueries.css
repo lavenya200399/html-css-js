@@ -117,4 +117,34 @@ font-size: 1rem;
 
 }
 
+
+/* Tablet (max-width: 768px) */
+@media screen and (max-width: 768px) {
+    .modal-content {
+      width: 90%; /* Increase width on smaller screens */
+      padding: 15px; /* Reduce padding */
+      margin: 15% auto; /* Adjust margin */
+    }
+  
+    .close {
+      font-size: 20px; /* Smaller close button */
+    }
+  }
+  
+  /* Mobile (max-width: 480px) */
+  @media screen and (max-width: 480px) {
+    .modal-content {
+      width: 95%; /* Almost full width */
+      margin: 20% auto; /* More margin from top */
+      padding: 10px; /* Less padding */
+      max-height: 80vh; /* Limit height */
+      overflow-y: auto; /* Enable scrolling */
+    }
+  
+    .close {
+      font-size: 18px; /* Adjust font size */
+      top: 5px;
+      right: 10px;
+    }
+  }
     
